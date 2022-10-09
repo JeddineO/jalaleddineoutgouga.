@@ -42,6 +42,43 @@
   </head>
 
   <body>
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Language</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <a href="assets/Jalal-eddine-Outgouga-Fr.pdf">
+          <img src="assets/img/france.png" title="Français" style=" height: 80px; width: 180PX;cursor: pointer;margin: 10px;" alt="France ">
+          </a>
+          <a href="assets/Jalal-eddine-Outgouga-En.pdf">
+
+        <img src="assets/img/English.png" title="English" style="height: 80px; width: 180PX; cursor: pointer;margin: 10px;" alt="English" >
+      </a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- ======= Mobile nav toggle button ======= -->
     <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
     <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
@@ -92,15 +129,19 @@
     </header>
     <!-- End Header -->
 
+
+   
+
+
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center">
       <div class="container" data-aos="zoom-in" data-aos-delay="100">
-        <h1>Jalal eddine Outgouaga</h1>
+        <h1>Jalal eddine OUTGOUGA</h1>
         <p>
-          I'm
+          I'm a
           <span
             class="typed"
-            data-typed-items=" Developer, Database Adminstrator,Software developer"
+            data-typed-items="Software Engineer, Backend Developer, Database Adminstrator"
           ></span>
         </p>
         <div class="social-links">
@@ -121,11 +162,17 @@
           href="https://github.com/JeddineO"
           class="linkedin"
           ><i class="bx bxl-github"></i></a>
-          <a href="assets/Jalal-eddine-Outgouga-En.pdf">
-            <button type="submit" class="btn btn-primary">
+          
+  
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
               Resume
-            </button></a
-          >
+            </button>
+          
+
+
+
+
+
         </div>
       </div>
     </section>
@@ -186,7 +233,7 @@
                     </li>
                     <li>
                       <i class="bi bi-chevron-right"></i>
-                      <strong>Degree:</strong> <span>Bachelor</span>
+                      <strong>Degree:</strong> <span>Engineer's Degree</span>
                     </li>
                     <li>
                       <i class="bi bi-chevron-right"></i>
@@ -532,7 +579,7 @@
                 <h4>Engineer's degree in Software Engineering and Computer Systems Integration</h4>
                 <h5>2022 - present</h5>
                 <p><em>faculty of science and technology,Hassan 2 University</em></p>
-                <p>Mohamedia,Morocco</p>
+                <p>Mohammedia,Morocco</p>
               </div>
               <div class="resume-item">
                 <h4>Bachelor of Mathematical and computer sciences</h4>
@@ -779,15 +826,17 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="container">
-        <h3>Outgouga Jalal Eddine</h3>
+        <h3>OUTGOUGA Jalal Eddine</h3>
         <p>
-         Web developer,Dtabase Adminstrator
+          Softawre Engineer,Web developer,Database Adminstrator
         </p>
         <div class="social-links">
 
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100007113856835" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/ja.lal_01/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/jalal-eddine-outgouga-190b6b202/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/JeddineO" class="linkedin"><i class="bx bxl-github"></i></a>
+
         </div>
         <div class="copyright">
           &copy; Copyright <strong><span>JEO</span></strong
@@ -815,6 +864,11 @@
     <script src="assets/vendor/typed.js/typed.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
